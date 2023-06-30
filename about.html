@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FarmGuru | About Us</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+</head>
+<body>
+    <nav class="nav">
+        <div class="logo">
+           <a href="index.html"><img src="Free_Sample_By_Wix (1).jpg" width="100"></a>
+        </div>
+        <div class="nav_side">
+            <a href="about.html">About Us</a>
+            <a href="service.html">Services</a>
+            <a href="blog.html">Blogs</a>
+            <a href="contactus.html">Contact Us</a>
+            <a href="login.html">Login/SignUp</a>
+
+         </div>
+
+    </nav>
+    <div class="about_us">
+        <h2>About Us</h2>
+        <div class="about_content">
+            <p> Farmers are the pillars of our nation. They work hard to supply food items for everyone living in the nation throughout their lives.
+                In India, nearly two-thirds of the population rely on agriculture for their livelihood. They produce food, fodder and other raw 
+                materials, and are the major source of income for a farmer.Farmers are the reason for which we are getting fresh fruits and vegetables.
+                Farmers are very much essential for the survival of human society. Farmers contribute a lot of efforts to the economic growth of the country.
+                It is our sole duty to respect every farmer.
+            </p>
+        
+        </div>
+        <hr>
+        <h2>Our Mission</h2>
+        <p>Increasing incomes. Agricultural transformation is very slow in India. ...
+            Generating employment opportunities. ...
+            Reducing risks in agriculture. ...
+            Developing agri-infrastructure. ...
+            Improving quality of rural life.  
+        </p>
+    </div>
+    <hr>
+    <div class="feed">
+        <h2>Your Feedback</h2>
+        <div class="feed_form">
+            <form name="submit-googlesheeet" method="post"> 
+                <input type="text" name="Name" placeholder="Name"><br>
+                <input type="email" name="Email" placeholder="Email ID"><br>
+                <input type="number" name="Number" placeholder="Contact Number"><br>
+                <textarea rows="5" columns="7" name="Review" placeholder="Write your review" ></textarea> 
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <br><br><br>
+    <footer>
+        <div class="logo">
+            <a href="index.html"><img src="img.5.png" width="100"></a>
+        </div> 
+        
+        <div class="doc">
+            <h3>Documents</h3>
+            <a href="">Privacy Policy</a>|
+            <a href="">Terms of Uses</a>|
+            <a href=""> Help</a>|
+        </div>
+    
+        <div class="social">
+            <h3>Follow us</h3>
+            <a href="https://www.facebook.com/profile.php?id=100034679658535&mibextid=ZbWKwL" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/patrudu-nani-6b2b50246/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            <a href="https://instagram.com/jaya_kumar.b?igshid=MzNlNGNkZWQ4Mg==" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        
+        </div>
+        <div class="contact">
+            <h3>Contact Us</h3>
+            <a href="https://api.Whatsapp.com/send?phone=+917702136808" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+            <a href="tel: +917702136808" target="_blank"><i class="fa fa-phone" aria-hidden="true"></i></a>
+            <a href="mailto: patrudunani3886@gmail.com" target="_blank"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+        </div>
+        <hr>    
+        <p>Copyright &copy; 2021 1stop.All Rights reserved </p>
+
+    </footer>
+
+    <script type="text/JavaScript">
+       const scriptURL = 'https://script.google.com/macros/s/AKfycbzDUhefB7kHekn7TE8hZ13r4ekq2VYsQ4h0uvY895kY5BcRb0YZA9tVRl9TdheNj9fR/exec'
+       const form = document.forms['submit-googlesheeet']
+       form.addEventListener('submit', e=>  {
+         e.preventDefault()
+         fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => alert("Thanks for Contacting us..! We Will Contact You Soom.."))
+          .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+ </body>
+</html> 

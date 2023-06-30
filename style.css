@@ -1,0 +1,579 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.nav{
+    background: rgb(74, 151, 182);
+    z-index: 5;
+    padding: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    box-shadow: 0px 3px 65px 0px rgba(.10,0,.13,.15);
+} 
+/* .nav_top{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+} */
+.logo{
+    float: left;
+    width: 50%;
+}
+
+
+.logo img{
+    padding: 2px;
+}
+.nav_side{
+    float: right;
+    width: 50%;
+}
+.nav_side a{
+    text-decoration: none;
+    margin-right: 20px;
+    margin-top: 40px;
+    color: black;
+    font-weight: bold;
+    font-family: cosmic, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    align-content: center;
+    align-items: center; 
+    text-align: center; 
+
+}
+.nav_side a:hover{
+    color: white;
+    text-decoration: underline;
+    transition: all 1s ease;
+}  
+.main{
+    background-image: url('istockphoto-1029301814-612x612.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 60vh;
+    overflow: hidden;
+
+}
+.main .main_content{
+    padding-top: 50px;
+    margin-left: 19px;
+    margin-right: 10px;
+
+}
+
+
+.main .main_content .btn{
+    margin-top: 12%;
+    text-align: bottom;
+     
+}
+
+.main .main_content .btn a{
+    border: 2px solid yellow;
+    border-radius: 8px;
+    text-decoration: none;
+    margin: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: white;
+    color: blue;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+ 
+}
+.main .main_content .btn a:hover{
+    background-color: white; 
+    color: rebeccapurple;
+    border: none;
+    border-bottom: 3px solid orangered;
+    transition: 0.5s;
+}
+.product{
+    padding-bottom: 50px;
+}
+.product h2{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    padding: 20px;
+}
+.product .product_container{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.product .product_container .item{
+    width: 33.33%;
+    margin: 30px;
+    height: auto;
+}
+.product .product_container .item{
+    box-shadow: 0px 3px 65px 0px rgba(0,0,0, .15);
+
+}
+.product .product_container .item .item_img{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+
+}
+.product .product_container .item .item_img img{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+.product .product_container .item .item_content{
+    text-align: center;
+}
+.product .product_container .item .item_content h3{
+
+    padding: 10px;
+    font-size: 25px;
+    font-family: cosmic,sans-serif;
+    color: brown;
+    list-style: 2px;
+}
+.product .product_container .item .item_content p{
+    
+    padding: 10px;
+    font-size: 15px;
+    font-family: cosmic,sans-serif;
+    color: blue;
+    
+}
+.product .product_container .item .item_content a{
+    border: 2px solid orangered;
+    border-radius: 8px;
+    text-decoration: none;
+    margin: 30px;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: rebeccapurple;
+    color: wheat;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+ 
+}
+.product .product_container .item .item_content a:hover{
+    background-color: black; 
+    color: orangered;
+    border: none;
+    border-bottom: 3px solid white;
+    transition: 0.5s;
+
+}
+.product .product_btn{
+    text-align: center;
+    margin-top: 50px;
+
+}
+.product .product_btn a{
+    border: 2px solid orangered;
+    border-radius: 8px;
+    text-decoration: none;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: rebeccapurple;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    
+}
+.product .product_btn a:hover{
+    background-color: black; 
+    color: orangered;
+    border: none;
+    border-bottom: 3px solid white;
+    transition: 0.5s;
+}
+.keypoint{
+    padding: 50px;
+} 
+.keypoint h2{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    padding-left: 5px;
+
+}
+.keypoint .key_container{
+    display: flex;
+}
+.keypoint .key_container .key_content{
+    width: 40%;
+    padding: 20px;
+    float: left; 
+
+}
+.keypoint .key_container ,.key_content li{
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+    border-left: 2px solid red;
+    color: black;
+    text-align: left;
+    font-family: cosmic,sans-serif;
+    box-shadow: opx 3px 65px 0px rgba(0,0,0, .15);
+}
+.keypoint.key_container .key_img{
+    width:  70%;
+    float: right;
+    margin-left: 100px; 
+    margin-top: 3%;
+    
+}
+.keypoint .key_container .key_img ing{
+    width: 100%;
+
+}
+.testi{
+    padding: 50px;
+}
+.testi h2{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+
+}
+.testi .testi_container{
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: center;
+}
+.testi .testi_container .carousel-inner{
+    background-color: yellow;
+    box-shadow: none; 
+
+}
+.testi .testi_container .item{
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(156, 156, 50);
+    box-shadow: none ;
+
+}
+.testi .testi_container .item .item_img{
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    overflow: hidden;
+} 
+.testi .testi_container .item .item_img img{
+    width:400px;
+    height: 100%;
+    border-radius: 4px;
+    margin-top: 10px;
+
+} 
+.testi .testi_container .item .item_content {
+    text-align: center;
+
+}
+.testi .testi_container .item .item_content h3{
+    padding: 10px;
+    font-size: 25px;
+    font-family: cosmic,sans-serif;
+}
+.testi .testi_container .item .item_con tent p{
+    padding: 10px;
+    font-size: 15px;
+    font-family: cosmic,sans-serif;
+}
+.team{
+    padding: 50px;
+}
+.team h2{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    
+ 
+}
+.team .team_container{
+    display: flex;
+    
+} 
+.team .team_container .team_video{
+    width: 50%;
+    padding: 20px;
+
+}
+.team .team_container .team_video video{
+    width: 100%;
+    border: 6px solid orange;
+    border-radius: 6px;
+
+} 
+.team .team_container .team_content{
+    width: 50%;
+    padding-top: 15px;
+    
+}
+.team .team_container .team_content p{
+    font-size: 18px;
+    font-family: cosmic,sans-serif;
+    padding: 10px;
+}
+.feed{
+
+    background-image: url('istockphoto-806276128-612x612.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.feed h2{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    
+}
+.feed .feed_form{
+    text-align: center;
+}
+.feed .feed_form form{
+    margin: 10px; 
+    padding: 8px;
+    border: none;
+    outline: none;
+
+}
+.feed .feed_form form input{
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+.feed .feed_form form textarea{
+    width: 35%;
+    margin-left: 13%;
+    border: none;
+    outline: none;
+    
+
+}
+
+.feed .feed_form form button{
+    width: 10%;
+    margin: 15px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 3px;
+
+
+}
+.feed .feed_form form button:hover{
+    background-color: black; 
+    color: orangered;
+    border: none;
+    border-bottom: 3px solid white;
+    transition: 0.5s;
+}
+.about_us{
+    padding: 100px;
+
+}
+.about_us h2{
+    color: orangered;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    font-family: cosmic,sans-serif;
+    text-transform: uppercase;
+
+}
+.about_us p{
+    padding: 10px;
+    font-size: 12px;
+    text-align: center;
+    font-family: cosmic,sans-serif;
+    line-height: 30px;
+}  
+.contact_container{
+    padding: 100px;
+
+}
+.contact_container h2{
+    color: orangered;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    font-family: cosmic,sans-serif;
+    text-transform: uppercase;
+}
+.contact_container .g_map{
+    border: 10px solid black;
+    border-radius: 3px solid black;
+}
+.contact_container .contact_content{
+    padding: 20px;
+}
+.contact_container .contact_content p{
+    padding: 10px;
+    font-size: 12px;
+    text-align: right;
+    font-family: cosmic,sans-serif;
+    line-height: 30px;
+}
+.Login{
+
+    background-image: url('istockphoto-806276128-612x612.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.Login h2{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    
+}
+.Login .login_signup{
+    text-align: center;
+}
+.Login .login_signup form{
+    margin: 10px; 
+    padding: 8px;
+    border: none;
+    outline: none;
+}
+.Login .login_signup form input{
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+.Login .login_signup form textarea{
+    width: 35%;
+    margin-left: 13%;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+}
+.Login .login_signup form button{
+    width: 10%;
+    margin: 15px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    background-color: green;
+    color: white;
+    border-radius: 3px;
+
+
+}
+.Login .login_signup form button:hover{
+    background-color: black; 
+    color: orangered;
+    border: none;
+    border-bottom: 3px solid white;
+    transition: 0.5s;
+}
+footer{
+    background-color: silver;
+    padding: 50px;
+}
+
+
+footer .doc{
+    text-decoration: underline;
+    text-align: right;
+}
+footer .doc h3{
+    color: orangered;
+    font-size: 20px;
+    font-family: cosmic,sans-serif;
+    padding: 3px;
+    
+}
+footer .doc h3:hover{
+    color: blue;
+     
+}
+footer .doc a{
+    margin: 10px;
+    color: orangered;
+    font-size: bolder;
+    font-family: cosmic,sans-serif;
+}
+footer .doc a:hover{
+
+    color: blue;
+}
+footer .social{
+    text-decoration: solid;
+    text-decoration: underline;
+    text-align: right;
+
+}
+footer .social h3{
+    color: orangered;
+    font-family: cosmic,sans-serif;
+    padding: 3px;
+    text-align: right;
+    
+    
+}
+footer .social h3:hover{
+    color: blue;
+
+}
+footer .social a{
+    text-decoration: none;
+    margin: 10px;
+    color: blue;
+    font-size: bolder;
+    font-family: cosmic,sans-serif;
+}
+footer .social a:hover{
+    color: black;
+}
+footer .contact{
+    text-decoration: solid;
+    text-decoration: underline;
+    text-align: right;
+}
+footer .contact h3{
+    color: orangered;
+    font-family: cosmic,sans-serif;
+    padding: 3px;
+    
+    
+}
+footer .contact h3:hover{
+    color: blue;
+
+}
+footer .contact a{
+    text-decoration: none;
+    margin: 10px;
+    color: blue;
+    font-size: bolder;
+    font-family: cosmic,sans-serif;
+    
+}
+footer .contact a:hover{
+    color: black;
+}
